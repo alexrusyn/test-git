@@ -7,7 +7,7 @@ console.log("some new string");
 console.log("new str");
 
 class API {
-  static URL = "https://";
+  static URL = "https://github/";
 
   async getPublicData() {
     const data = await fetch(API.URL);
