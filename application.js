@@ -3,3 +3,5 @@ const func = () => {
 };
 
 console.log("some new string");
+
+console.log("new str");
