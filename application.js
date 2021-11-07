@@ -1,9 +1,5 @@
 import { API } from "./const";
 
-const func = () => {
-  console.log("some cool function");
-};
-
 class API {
   static URL = "https://github/";
 
