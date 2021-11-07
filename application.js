@@ -1,3 +1,5 @@
+import { API } from "./const";
+
 const func = () => {
   console.log("some cool function");
 };
@@ -15,11 +17,16 @@ class API {
   }
 }
 
-class API_2 {
-  static = "https://gitlab/";
+class Gitlab_API {
+  static = API.GITLAB;
 
   async getData() {
-    const data = await fetch(API_2.URL);
+    const data = await fetch(Gitlab_API.URL);
+    return data.json();
+  }
+
+  async getOtherData(id) {
+    const data = await fetch(`${Gitlab_API.URL}/${id}`);
     return data.json();
   }
 }
