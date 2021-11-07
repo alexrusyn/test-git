@@ -7,7 +7,7 @@ const func = () => {
 console.log("new str");
 
 class API {
-  static URL = "https://github/";
+  static URL = API.GITHUB;
 
   async getPublicData() {
     const data = await fetch(API.URL);
