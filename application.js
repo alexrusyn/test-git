@@ -28,3 +28,10 @@ class Gitlab_API {
     return data.json();
   }
 }
+
+class newClassImplementation {
+  someMethods = (a, b) => a + b;
+  someMethods2 = (a, b) => a * b;
+  someMethods3 = (a, b) => a - b;
+  someMethods4 = (a, b) => a / b;
+}
