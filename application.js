@@ -28,3 +28,5 @@ class Gitlab_API {
     return data.json();
   }
 }
+
+console.log("some code");
