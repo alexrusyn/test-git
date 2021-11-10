@@ -29,6 +29,8 @@ class Gitlab_API {
   }
 }
 
+console.log("some code");
+
 class newClassImplementation {
   someMethods = (a, b) => a + b;
   someMethods2 = (a, b) => a * b;
