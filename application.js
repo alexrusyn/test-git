@@ -4,6 +4,10 @@ const func = () => {
   console.log("some cool function");
 };
 
+const helper = () => {
+  console.log("some new");
+};
+
 console.log("new str");
 
 class API {
