@@ -1,7 +1,17 @@
 import { API } from "./const";
 
+const func = () => {
+  console.log("some cool function");
+};
+
+const helper = () => {
+  console.log("some new");
+};
+
+console.log("new str");
+
 class API {
-  static URL = "https://github/";
+  static URL = API.GITHUB;
 
   async getPublicData() {
     const data = await fetch(API.URL);
@@ -21,4 +31,13 @@ class Gitlab_API {
     const data = await fetch(`${Gitlab_API.URL}/${id}`);
     return data.json();
   }
+}
+
+console.log("some code");
+
+class newClassImplementation {
+  someMethods = (a, b) => a + b;
+  someMethods2 = (a, b) => a * b;
+  someMethods3 = (a, b) => a - b;
+  someMethods4 = (a, b) => a / b;
 }
