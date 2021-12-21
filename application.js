@@ -41,3 +41,7 @@ class newClassImplementation {
   someMethods3 = (a, b) => a - b;
   someMethods4 = (a, b) => a / b;
 }
+
+function newFunc(a) {
+  return a.toUpperCase();
+}
