@@ -41,3 +41,18 @@ class newClassImplementation {
   someMethods3 = (a, b) => a - b;
   someMethods4 = (a, b) => a / b;
 }
+
+class otherNewClass {
+  constructor(a, b) {
+    this.a = a;
+    this.b = b;
+  }
+
+  add() {
+    return this.a + this.b;
+  }
+
+  mult() {
+    return this.a * this.b;
+  }
+}
